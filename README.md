@@ -28,19 +28,14 @@ to support professionals working with personality tests in their everyday challe
 Authentic text samples come from Kaggle platform: https://www.kaggle.com/datasets/datasnaek/mbti-type.
 
 ## Methods
-*Text preprocessing:* including tokenization, stopwords removal, marking characteristic elements, 80:20 stratified split.
+*Text preprocessing:* 
+including tokenization, stopwords removal, marking characteristic elements, 80:20 stratified split.
 
 *Traditional approach:* 
- * TF-IDF representation (unigrams, bigrams, unigrams & bigrams)
-   +
- * multinomial logistic regression, linear SVM classifiers, multinomial Naive Bayes classifier, extreme gradient boosting (XGBoost)
+TF-IDF representation (unigrams, bigrams, unigrams & bigrams) + multinomial logistic regression, linear SVM classifiers, multinomial Naive Bayes classifier, extreme gradient boosting (XGBoost)
 
 *Neural networks:* 
- * embedding in 64 dimensional space
-   +
- * RNN with GRU Cell (with optimization attempt), neural network with Attention mechanism
+embedding in 64 dimensional space + RNN with GRU Cell (with optimization attempt), neural network with Attention mechanism
 
 *BERT:* 
- * dedicated preprocessing model
-   +
- * BERT fine-tuning
+dedicated preprocessing model + BERT fine-tuning
