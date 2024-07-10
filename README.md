@@ -1,6 +1,6 @@
 # Personality Type Classification Based on Internet Posts
 
-This work is a set of experiments in the field of text classification. The project uses a number of traditional machine learning methods and neural networks. The technique for creating a numerical representation of text was selected depending on the characteristics of the model.
+This work is a set of experiments in the field of text classification. The project uses both traditional machine learning methods and neural networks. The technique for creating a numerical representation of text was selected depending on the characteristics of the model.
 
 The project served as the practical part of my master's thesis.
 
