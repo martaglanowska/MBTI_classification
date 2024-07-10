@@ -32,12 +32,15 @@ Authentic text samples come from Kaggle platform: https://www.kaggle.com/dataset
 
 *Traditional approach:* 
  * TF-IDF representation (unigrams, bigrams, unigrams & bigrams)
+   +
  * multinomial logistic regression, linear SVM classifiers, multinomial Naive Bayes classifier, extreme gradient boosting (XGBoost)
 
 *Neural networks:* 
  * embedding in 64 dimensional space
+   +
  * RNN with GRU Cell (with optimization attempt), neural network with Attention mechanism
 
 *BERT:* 
  * dedicated preprocessing model
+   +
  * BERT fine-tuning
